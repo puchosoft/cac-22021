@@ -14,7 +14,7 @@ import java.sql.SQLException;
  */
 public class DBConn {
     private String driver = "com.mysql.jdbc.Driver";
-    private String server = "lcpbq9az4jklobvq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    private String server = "localhost";
     private String host = "jdbc:mysql://" + server + ":3306/";
         
     public Connection getConnection(String database, String userDB, String passwordDB){

@@ -22,9 +22,9 @@ public class UsuarioDAO {
     
     public UsuarioDAO(){
         DBConn conn = new DBConn();
-        String DB = "zde0lb8e5dka6788";
-        String userDB = "dsg97lzq336cvxag";
-        String passDB = "fq20u4btfnsjdez7";
+        String DB = "homebanking";
+        String userDB = "root";
+        String passDB = "1234";
         connection = conn.getConnection(DB, userDB, passDB);
     }
     
